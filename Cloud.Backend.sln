@@ -13,17 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{BADE502A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloud.Domain", "Core\Cloud.Domain\Cloud.Domain.csproj", "{869D1453-CAAB-45DA-9053-737554DEF19D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Application", "Core\Cloud.Application\Cloud.Application.csproj", "{5CDE72F4-E2A7-4EAB-974F-226CF9061D13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloud.Application", "Core\Cloud.Application\Cloud.Application.csproj", "{5CDE72F4-E2A7-4EAB-974F-226CF9061D13}"
 	ProjectSection(ProjectDependencies) = postProject
 		{869D1453-CAAB-45DA-9053-737554DEF19D} = {869D1453-CAAB-45DA-9053-737554DEF19D}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.Persistance", "Infrastructure\Cloud.Persistance\Cloud.Persistance.csproj", "{2A9C089B-5144-4296-8939-09F52FFB30A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloud.Persistance", "Infrastructure\Cloud.Persistance\Cloud.Persistance.csproj", "{2A9C089B-5144-4296-8939-09F52FFB30A0}"
 	ProjectSection(ProjectDependencies) = postProject
 		{5CDE72F4-E2A7-4EAB-974F-226CF9061D13} = {5CDE72F4-E2A7-4EAB-974F-226CF9061D13}
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud.WebApi", "Presentation\Cloud.WebApi\Cloud.WebApi.csproj", "{91C7BBBF-019A-4664-ADAC-D487C3F2A50F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cloud.WebApi", "Presentation\Cloud.WebApi\Cloud.WebApi.csproj", "{91C7BBBF-019A-4664-ADAC-D487C3F2A50F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

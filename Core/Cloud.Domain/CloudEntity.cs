@@ -2,7 +2,7 @@
 
 namespace Cloud.Domain
 {
-    class Cloud
+    public class CloudEntity
     {
         public Guid UserId { get; set; }
         public Guid Id { get; set; }
